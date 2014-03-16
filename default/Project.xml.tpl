@@ -8,7 +8,7 @@
 	<!--app preloader="flixel.system.FlxPreloader" /-->
 	
 	<!--The swf version should be at least 11.8 without FLX_NO_GAMEPAD -->
-	<set name="SWF_VERSION" value="11.8" />
+	<set name="SWF_VERSION" value="12.0" />
 	
 	<!--------------------------------WINDOW SETTINGS------------------------------->
 	
@@ -37,7 +37,8 @@
 	<haxelib name="flixel"/>
 	
 	<!--In case you want to use the addons package-->
-	<!--haxelib name="flixel-addons" /-->
+	<haxelib name="flixel-addons"/>
+	<haxelib name="my-addons"/>
 	
 	<!--In case you want to use the ui package-->
 	<!--haxelib name="flixel-ui"/-->
